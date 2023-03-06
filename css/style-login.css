@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../image/Background.png);
+    /* background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%); */
+}
+
+.container{
+	background: url('/image/Background.png');
+	min-height: 100vh;
+	background-position:center bottom;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login{
+	min-height: 500px;
+	max-width: 400px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 40px;
+	background: transparent;
+	backdrop-filter: blur(10px);
+	box-shadow: 0px 5px 15px 0px rgba(255, 255, 255, 0.699);
+
+
+}
+.login::after, .login::before{
+	background: rgb(255, 255, 255,0.2);
+	border-radius: 10px;
+	position: absolute;
+	box-shadow: 0px 5px 15px 0px rgba(255, 255, 255, 0.3);
+	content: '';
+	animation-name: rotate-box;
+	animation-duration: 1.5s;
+	
+
+}
+.login::after{
+	width: 100px;
+	height: 100px;
+	top: -30px;
+	left: -50px;
+}
+.login::before{
+	width: 120px;
+	height: 130px;
+	top: 30px;
+	left: -90px;
+
+}
+@keyframes rotate-box{
+	0%{
+		transform: rotate(90deg);
+	}
+	100%{
+		transform: rotate(0);
+	}
+}
+
+.login h2{
+	color: #ffffff;
+	margin-bottom: 50px;
+	font-size: 35px;
+}
+.login input{
+	border: none;
+	outline: none;
+	color: #ffffff;
+}
+.login .inputs{
+	width: 85%;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.login .inputs input{
+	width: 93%;
+	background: none;
+	font-size: 20px;
+	padding: 5px 10px 10px 0px;
+}
+.login .inputs input::placeholder{
+	color: #ffffff;
+}
+.login .btn input{
+	background-image: linear-gradient(to right, #6de2ff, #6b21f5);
+	font-size: 17px;
+	padding: 10px 60px;
+	border-radius: 10px;
+	transition: 0.6s ease all;
+	margin-bottom: 10px;
+	
+}
+
+i{
+	color: #ffffff;
+	margin-bottom: 3px;
+}
+.btn input:hover{
+	background-color: transparent;
+	background-image: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+p{
+	color: #ffffff;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+.resetpassword a {
+	color: white;
+}
