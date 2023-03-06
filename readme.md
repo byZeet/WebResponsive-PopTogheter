@@ -1,6 +1,6 @@
 Preview de la página Web SIN VIDEO
 
-https://webresponsiveprview.000webhostapp.com/
+https://poptogheter.netlify.app/
 
 Para ver el resultado final de la página, clona este repositorio.
 
