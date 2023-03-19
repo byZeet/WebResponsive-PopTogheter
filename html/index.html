@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PopTogether</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/style-login.css">
+    <link rel="stylesheet" href="../css/tablet.css">
+    <link rel="stylesheet" href="../css/desktop.css">
 </head>
 <body>
-<!-- /*======= JavaScript Linked (EXTRA) =======*/ ✅ -->
-
-<script src="../javascript/script.js"></script>
 
 <!-- /*======= Nav Bar (Menú) =======*/ ✅ -->
 <header>
   <nav class="centrado">
+    <div class="menu-navbar d-none-lg">
+      <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    </div>
     <div class="logo-navbar">
       <img src="../image/Logo_Footer.png" alt="">
     </div>
-    <ul>
+    <ul class="d-lg">
       <li><a href="#">Peliculas</a></li>
       <li><a href="#">Series</a></li>
     </ul>
@@ -28,7 +33,7 @@
         <button type="submit"><img src="../image/search.svg" alt="Buscar"></button>
       </div>
     </form>
-    <div class="login-buttons">
+    <div class="login-buttons d-lg">
       <a href="../html/login.html"><button>Iniciar sesión</button></a>
       <button>Registrarse</button>
     </div>
@@ -37,49 +42,48 @@
 <!-- /*======= Hero (Vídeo) =======*/ ✅ -->
 <div class="degradado"> 
   <div class="hero">
-      <video src="../vid/VideoHero.mp4" autoplay loop></video>
+      <video src="../vid/video.mp4" muted autoplay loop></video>
     <div class="hero-content">
     <h1>Marvel Studios' Avengers: Endgame</h1>
       <p>El grave curso de los acontecimientos puesto en marcha por Thanos que destruyó la mitad del universo gracias al las Gemas del Infinito. Ha provocado que los Vengadores restantes deban tomar una última posición en la gran conclusión de Marvel Studios a veintidós películas</p>
-    <a href="#" class="button-vid">Ver Ahora</a>
+    <button href="#" class="button-vid">Ver Ahora</button>
     </div>
   </div>
 </div>
-<!-- /*======= Sección 1 (Ventajas) =======*/ ✅ (PENDIENTE DE CAMBIOS A FUTURO) -->
+<!-- /*======= Sección 1 (Ventajas) =======*/ ✅ -->
 <!-- Peliculas -->
 <section class="container-global">
-      <h1 class="ventajas-titulo">Todas las películas y series que desees, y mucho más.</h1>
+      <h2 class="ventajas-titulo">Todas las películas y series que desees, y mucho más.</h2>
   <div class="ventajas-container">
 
       <div class="texto">
           <span id="texto-titulo">Disfruta de PopTogether en tu TV.</span>
           <p>Smart TV, Playstation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y muchos más.</p>
           <button class="boton-ventajas">
-              Learn More
+              Ver Más
           </button>
       </div>
       <div class="texto">
           <span id="texto-titulo">Disfruta en todas partes.</span>
           <p>Reproduce en streaming todas las películas y series en tu móvil, tableta, ordenador y TV sin pagar más.</p>
           <button class="boton-ventajas">
-              Learn More
+              Ver Más
           </button>
       </div>
       <div class="texto">
           <span id="texto-titulo">Crea perfiles infantiles.</span>
           <p>Deja que los niños vivan aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu suscripción.</p>
           <button class="boton-ventajas">
-              Learn More
+              Ver Más
           </button> 
       </div>
       <div class="texto">
           <span id="texto-titulo">Descárgate tus series favoritas para verlas sin conexión.</span>
           <p>Solo disponible en los planes sin anuncios.</p>
           <button class="boton-ventajas">
-              Learn More
+              Ver Más
           </button>
       </div>
-
   </div>
 </section>
 <section>
@@ -101,7 +105,7 @@
 <!-- /*======= Sección 3 (Características) =======*/ ✅ -->
 
 <section class="container-global caracteristicas">
-  <h1>¡Todo en uno! Disfruta de tus películas y series favoritas con PopTogheter</h1>
+  <h2>¡Todo en uno! Disfruta de tus películas y series favoritas con PopTogheter</h2>
   <div class="caracteristicas-container">
     <div class="s3-container">
       <div class="s3-img">
@@ -161,7 +165,7 @@
 <section class="container-global tarjetas-container">
   <div class="tarjetas" >
     <div class="s5-text">
-      <h1>¡Elige los géneros que más te gusten y disfruta sin límites!</h1>
+      <h2>¡Elige los géneros que más te gusten y disfruta sin límites!</h2>
       <p>Acción, Comedia, Suspense, Terror, Infantil...¡Tenemos de todo a tu gusto!</p>
     </div>
     <div class="card-container">
@@ -204,8 +208,8 @@
     <p>Blog</p>
     <p>Contact</p>
   </div>
-  <hr>
 </div>
+<hr>
   <!-- Div inferior logos + extras -->
   <div class="footer-bottom">
     <div class="logo-container">
