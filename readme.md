@@ -1,5 +1,13 @@
-https://poptogheter.netlify.app/
+# DEMO: https://poptogheter.netlify.app/
 
-![Parte 1](/image/Captura_1.png)
-![Parte 2](/image/Captura_2.png)
-![Parte 3](/image/Captura_3.png)
+# PC VERSION
+
+![PC](./vid/PC.gif)
+
+# MOBILE VERSION
+
+![MOBILE](./vid/MOBILE.gif)
+
+# TABLET VERSION
+
+![TABLET](./vid/TABLET.gif)
